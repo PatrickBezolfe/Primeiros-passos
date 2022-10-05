@@ -1,87 +1,73 @@
-*{ margin: 0px;
+*{  margin: 0px;
     padding: 0px;
     
 }
 
 body{
-    
     background-color: rgb(105, 105, 105);
 }
 header{
-    
     background-color: rgb(255, 255, 255);
-    padding: 20px 0px;
+    padding: 10px 0px;
     position: fixed;
     width: 100%;
     
-    }
+}
+
+
 nav{
-    
     display: flex;
     justify-content: space-between;
     
-    
 }
-    header nav ul{
-        display: flex;
-        list-style: none;
-        
-    }
 
-    
+.barramenu{
+     display: flex;
+     
+            
+}
 
-    header nav ul li a{
-        text-decoration: none;
-        text-transform: uppercase;
-        color: rgb(0, 0, 0);
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
-        padding: 2px 10px;
-        display: flex;
-        white-space: nowrap;
-               
-        
-                
-    }
+.minhaa{
+    padding: 0px 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    display: flex;
+    white-space: nowrap;
+}
 
-    header nav ul li a:hover{
-        color: rgb(255, 144, 144)
-        }
+.minhaa:hover{
+    color: rgb(255, 144, 144)
+}
 
 #img{
-    
     width: 20px;
-        }
+    padding: 0px 5px;
+}
 #imglogo{
-   
     width: 20px;
 }
-
-
-
-
-section{
-    
-    max-width: 1000px;
+.minhasection{
     padding: 5px;
     background-color: rgb(255, 255, 255);
-    margin: 0 auto;
-	display: block;
+    margin: 0 50px;
+    min-height: 100vh;
+	
     
 }
-section h1{
+.minhah1{
     margin-top: 100px;
     padding: 5px;
 }
 
-section p{
+.minhap{
     padding: 20px;
     text-indent: 60px;
 }
 
-footer{
-    
-    bottom: 0px;
+.meufooter{
     width: 100%;
     background-color: rgb(0, 0, 0);
     color: rgb(222, 222, 222);
