@@ -52,7 +52,6 @@ nav{
 .minhasection{
     padding: 5px;
     background-color: rgb(233, 233, 233);
-    margin: 0px 50px;
     min-height: 100vh;
 	font-family:sans-serif;
     
@@ -87,13 +86,14 @@ nav{
 .artigo{
     
     display: flex;
+    margin: 0px 18px;
     
     
     
 }
 .bloconoticia{
     border-radius: 10px;
-    margin: 0px 17px;
+    margin: 0px 10px;
     background-color: white;
     
 }
