@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px){
+    .logo_cel{
+        display: block;
+                      
+    }
+    .logo_desk{
+        
+        display: none;        
+                
+    }
+    .itensmenu{
+        display: none;
+        
+    }
+    .menuicon{
+        display: block;
+    }
+
+}

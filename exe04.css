@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.menubar{
+    background-color: rgb(58, 57, 57);
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .logo_cel{
+        margin-left: 5%;
+        display: none;
+        filter: brightness(500%) hue-rotate(45deg);  
+                
+    }
+    .logo_desk{
+        margin-left: 5%;
+        filter: brightness(500%) hue-rotate(45deg);        
+                
+    }
+    .itensmenu{
+        margin-right: 5%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+        .hyperlink04{
+            font-weight:bold ;
+            text-decoration: none;
+            color: lightgray;
+            margin-right: 20px;
+            white-space: nowrap;
+            padding: 10px
+        }
+        #produtor{
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            margin-left: 50px;
+            
+            
+        }
+    .menuicon{
+        margin-right: 5%;
+        display: none;
+        filter: contrast(0%) 
+    }
