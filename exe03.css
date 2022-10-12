@@ -1,0 +1,189 @@
+*{  margin: 0px;
+    padding: 0px;
+    
+}
+
+.corpo{
+    background-color: #fafafa;
+    
+}
+.cabecalho{
+    background-color:#ffb800;
+    background: linear-gradient(to top, #fb0 0%, rgb(255, 255, 255) 100%);
+    padding: 10px 0px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 2px 3px;
+}
+.barramenu{
+    display: flex;
+    padding-top: 17px;
+     
+            
+}
+.hyperlinkh{
+    padding: 0px 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    display: flex;
+    white-space: nowrap;
+}
+.hyperlinkh:hover{
+    color: #fafafa;
+}
+
+#img{
+    
+    padding: 0px 5px;
+}
+#imglogo{
+    
+    width: 50px;
+    margin-left: 15px;
+    
+}
+.boxtitulo03{
+    height: 100px;
+    margin: 0px 40px;
+    border-bottom: 6px double #ffb800;
+    font-family: sans-serif;
+    
+    
+}
+
+.titulo03{
+    
+    background-color: #fafafa;
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-right: 10px;
+    display: inline;
+    position: relative;
+    top: 90px;
+    left: -15px;
+    z-index: 0;
+}
+.titulo03::before{
+    content: '';
+    background: #ffb800;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    
+  }
+
+.section03{
+    display: flex;
+    
+    height: 480px;
+    
+    
+    
+
+}
+.mainassunto{
+    
+    
+    padding: 15px;
+    width: 55%;
+    
+}
+
+.foto{
+    
+    border-radius: 5px ;
+    max-width: 100%
+    
+    
+}
+.maintexto{
+    
+    color: white;
+    font-size: 1.3em;
+    font-family: sans-serif;
+    font-weight: bolder;
+    position: relative;
+    top: -100px;
+    left: 20px;
+    z-index: 0;
+    
+}
+
+.mainenfase{
+    border-top: 5px solid #ffb800;
+    display: inline;
+    white-space: nowrap;
+    background-color: initial;
+    color: inherit;
+
+}
+
+.manchetes{
+    
+    margin-top: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 45%;
+}
+.manchete{
+    
+    display: flex;
+    margin-bottom: 9%;
+    width: 90%;
+    
+    
+}
+.imgmanchete{
+    
+    border-radius: 5px ;
+    width: 50%;
+    
+}
+.textomanchete{
+    padding: 15px;
+    font-family: sans-serif, monospace;
+    font-weight: bold;
+}
+.mancheteenfase{
+    display: inline;
+    white-space: nowrap;
+    background-color: initial;
+    color: #ffb800;
+    text-transform: uppercase;
+}
+
+.boxcolunas{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+}
+.colunas{
+    border-right: 2px solid #ffb800;
+    font-family: sans-serif, monospace;
+    font-weight: bold;
+    padding: 0px 15px;
+    margin-bottom: 40px;
+    width: 25%;
+}
+#colunas{
+    font-family: sans-serif, monospace;
+    font-weight: bold;
+    padding: 0px 15px;
+    margin-bottom: 40px;
+    width: 25%;
+}
+.colunaenfase{
+    display: inline;
+    white-space: nowrap;
+    background-color: initial;
+    color: #ffb800;
+    text-transform: uppercase;
+}
+
+/* */ 
