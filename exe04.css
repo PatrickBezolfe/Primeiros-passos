@@ -48,3 +48,15 @@
         display: none;
         filter: contrast(0%) 
     }
+    
+button{
+        margin-top: 20%;
+        margin-left: 50%;
+}
+
+#botao{
+        background-color: #0000ff;
+        white-space: nowrap;
+        padding: 10px;
+        box-shadow: 3px 6px 9px;
+}  
